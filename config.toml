@@ -1,0 +1,24 @@
+baseurl = "https://gdgszczecin.github.io/"
+languageCode = "en-pl"
+title = "Google Developers Group Szczecin"
+theme = "ananke"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "pl"
+SectionPagesMenu = "main"
+
+[params]
+    description = "GDG Szczecin to grupa programistów i osób związanych ze środowiskiem IT, skupionych wokół technologii Google ukierunkowana na wspólną integrację."
+    facebook = "https://www.facebook.com/gdgSzczecin/"
+    github = "https://github.com/GDGSzczecin"
+    featured_image = "/images/szczecin.jpg"
+
+[menu]
+    [[menu.main]]
+        identifier = "next-meet"
+        name = "Następne spotkanie"
+        url = "#next-meet"
+    [[menu.main]]
+        identifier = "slack"
+        name = "Skontaktuj się z nami na Slacku"
+        url = "https://gdgszczecin.slack.com"
