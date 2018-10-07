@@ -11,6 +11,7 @@ SectionPagesMenu = "main"
     description = "GDG Szczecin to grupa programistów i osób związanych ze środowiskiem IT, skupionych wokół technologii Google ukierunkowana na wspólną integrację."
     facebook = "https://www.facebook.com/gdgSzczecin/"
     github = "https://github.com/GDGSzczecin"
+    twitter = "https://twitter.com/GDGSzczecin"
     featured_image = "/images/szczecin.jpg"
 
 [menu]
