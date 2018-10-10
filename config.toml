@@ -6,6 +6,7 @@ theme = "ananke"
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "pl"
 SectionPagesMenu = "main"
+googleAnalytics = "UA-127205434-1"
 
 [params]
     description = "GDG Szczecin to grupa programistów i osób związanych ze środowiskiem IT, skupionych wokół technologii Google ukierunkowana na wspólną integrację."
