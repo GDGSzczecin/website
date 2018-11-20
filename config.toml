@@ -1,6 +1,6 @@
 baseurl = "https://gdgszczecin.github.io/"
 languageCode = "en-pl"
-title = "Google Developers Group Szczecin"
+title = "GDG Szczecin"
 theme = "ananke"
 
 MetaDataFormat = "yaml"
