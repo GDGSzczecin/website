@@ -6,12 +6,7 @@ Then run
 
     hugo server -D
 
-Make changes, etc. When you're happy with your changes commit them, then run
+Make changes, etc. When you're done commit your changes then run:
 
-    HUGO_ENV=production hugo server -b https://gdgszczecin.github.io --renderToDisk --appendPort=false
-    cd public
+    ./deploy.hs
 
-Commit changes from public directory and push. Changes from public directory is content of repository gdgszczecin.github.io
-
-Optionally (doesn't work currently):
-    ./deploy.sh

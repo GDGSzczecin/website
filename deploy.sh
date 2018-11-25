@@ -1,9 +1,15 @@
 #!/bin/bash
+set -euo pipefail
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+if [[ $(git diff --stat) != '' ]]; then
+  echo 'Changes detected. Please either stash or commit your changes.'
+  exit 0
+fi
+
 # Build the project.
-hugo server -b https://gdgszczecin.github.io --renderToDisk --appendPort=false
+HUGO_ENV=production hugo
 
 # Go To Public folder
 cd public
@@ -11,9 +17,11 @@ cd public
 git add .
 
 # Commit changes.
-msg="rebuilding site `date`"
-if [ $# -eq 1 ]
-  then msg="$1"
+commit_hash=$(git rev-parse HEAD)
+msg="Rebuilding site using commit $commit_hash"
+
+if [ $# -eq 1 ]; then
+  msg="$1"
 fi
 git commit -m "$msg"
 
