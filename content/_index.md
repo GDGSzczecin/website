@@ -2,9 +2,6 @@
 description: ""
 ---
 
-Następne spotkanie: 05.12.2018!
+Następne spotkanie: Soon!
 
 ---
-Prelegent 1
-===========
-![Prelegent1](https://placehold.it/300x300) TBA
